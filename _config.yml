@@ -8,6 +8,7 @@ version: 2
 # Personal info
 name: Your Name
 title: Your job title
+location: Your location
 email: Your email (optional)
 # email_title: Email (Email title override)
 phone: Your phone number (optional)
@@ -86,6 +87,18 @@ content:
         title: Company name
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      - layout: right
+        title: Company name
+        layers:
+          - sub_title: Job title
+          - caption: Date Range (eg. November 2016 - present)
+          - sub_title: Job title
+          - caption: Date Range (eg. November 2016 - present)
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
